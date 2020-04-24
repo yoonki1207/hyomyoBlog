@@ -12,7 +12,7 @@ from wordcloud import WordCloud
 # selenium 은 보통의 크롤러의 상위버전이라고 생각하면 됨.
 # 즉, 무언가를 클릭하고, 이벤트가 일어났을 때 크롤링을 할 때 사용함.
 
-url = input('input child url(ex: watch?v=BFTDqTlGyzg ) : ')
+url = input('input child url(ex: watch?v=2A6pygV4Z04 ) : ')
 url = 'https://www.youtube.com/'+url
 font_path_input = 'C:/Windows/Fonts/malgun.ttf'
 num_scroll = int(input('input num of scroll (50 recommend) : '))
